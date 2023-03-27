@@ -103,7 +103,6 @@ def play_game():
         print_board(board)
         move = input("Enter move (left, right, up, down) or 'q' to quit: ")
         if move == "q":
-            print("Thanks for playing!")
             break
         elif move in ["left", "right", "up", "down"]:
             if move == "left":
